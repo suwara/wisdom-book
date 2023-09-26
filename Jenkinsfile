@@ -9,7 +9,7 @@ pipeline {
           }
           stage('Build') {
                steps {
-                    bat 'mvn package -DskipTests'
+                    bat 'C:/Users/User/apache-maven-3.9.4-bin/apache-maven-3.9.4/bin/mvn package -DskipTests'
                }
           }
           stage('Test') {
