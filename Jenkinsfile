@@ -4,7 +4,7 @@ pipeline {
           stage('Source') {
                steps {
                     git branch: 'main',
-                        url: 'https://github.com/ladyusa/wisdom-book'
+                        url: 'https://github.com/suwara/wisdom-book'
                }
           }
           stage('Build') {
